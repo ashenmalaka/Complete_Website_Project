@@ -37,3 +37,15 @@ body {
     font-size: 0.8em;
     color: #F6F8FF;
 }
+
+.btn-sub1 {
+    font-family: 'Cabin';
+    border: 1px solid #EF233C;
+    background-color: #EDF2F4;
+    color: #EF233C;
+    border-radius: 3px;
+    padding: 0.7em 1em;
+    cursor: pointer;
+    transition: all 500ms ease;
+
+}
