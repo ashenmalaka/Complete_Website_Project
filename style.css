@@ -25,3 +25,8 @@ body {
     margin-top: 7%;
     height: 75vh;
 }
+
+.site-title h2 {
+    font-size: 3em;
+    margin: 5% 0%;
+}
