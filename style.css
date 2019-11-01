@@ -13,3 +13,9 @@ body {
     background-repeat: no-repeat;
     color: #f7fff7;
 }
+
+.navbar-nav li a {
+    font-size: 0.9em;
+    margin: 0px 10px;
+    color: #f7fff7;
+}
