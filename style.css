@@ -70,3 +70,14 @@ body {
     font-size: 15px;
     color: #EF233C;
 }
+
+.content-1 .col-md-12 .title-border {
+    content: "";
+    width: 30%;
+    height: 2px;
+    display: block;
+    background-color: #EF233C;
+    border-radius: 50%;
+    margin: 1%;
+    margin-left: 35%;
+}
