@@ -30,3 +30,10 @@ body {
     font-size: 3em;
     margin: 5% 0%;
 }
+
+.title-text {
+    width: 50vw;
+    height: 5vh;
+    font-size: 0.8em;
+    color: #F6F8FF;
+}
