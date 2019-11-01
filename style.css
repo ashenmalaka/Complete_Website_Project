@@ -63,3 +63,10 @@ body {
 .site-title i {
     padding-left: 0.3em;
 }
+
+/*Content One*/
+
+.content-1 .col-md-12 h6 {
+    font-size: 15px;
+    color: #EF233C;
+}
