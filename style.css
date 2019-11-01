@@ -81,3 +81,8 @@ body {
     margin: 1%;
     margin-left: 35%;
 }
+
+.content-1 .col-md-12 p{
+    font-size: 15px;
+    color: #3F494C;
+}
