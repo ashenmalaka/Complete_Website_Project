@@ -86,3 +86,14 @@ body {
     font-size: 15px;
     color: #3F494C;
 }
+
+.content-1 .curcle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 9vw;
+    background-color: #f7fff7;
+    border: 1px solid rgba(63, 73, 76, 0.205);
+    color: #EF233C;
+    transition: all 200ms ease;
+}
