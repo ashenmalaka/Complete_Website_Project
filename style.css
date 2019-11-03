@@ -34,7 +34,7 @@ body {
 .title-text {
     width: 50vw;
     height: 5vh;
-    font-size: 1.0em;
+    font-size: 0.9em;
     color: #F6F8FF;
 }
 
@@ -82,7 +82,7 @@ body {
     margin-left: 35%;
 }
 
-.content-1 .col-md-12 p{
+.content-1 .col-md-12 p {
     font-size: 15px;
     color: #3F494C;
 }
