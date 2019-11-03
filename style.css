@@ -97,3 +97,7 @@ body {
     color: #EF233C;
     transition: all 200ms ease;
 }
+
+.content-1 .description {
+    text-decoration: none;
+}
