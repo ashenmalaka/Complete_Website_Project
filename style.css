@@ -108,4 +108,7 @@ body {
 
 .content-2 .row .col-1 {
     background-image: url('images/adult-architect-blueprint-416405.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
