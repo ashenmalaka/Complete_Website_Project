@@ -117,3 +117,12 @@ body {
 .content-2 .col-md-6 p{
     font-size: 15px;
 }
+
+.content-2.progress-bars{
+    margin-bottom: 8vh;
+}
+
+.progress +.pro-1, pro-2, pro-3 {
+    width: 0%;
+    transition: all 2s ease;
+}
