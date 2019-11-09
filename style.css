@@ -138,3 +138,16 @@ body {
 .content-3 .row {
     padding-bottom: 5%;
 }
+
+.content-3 .col-md-12 p {
+    font-size: 15px;
+    color: #EF233C;
+}
+
+.content-3 .col-md-12 h3 {
+    margin-bottom: 3%;
+}
+
+.content-3 .pro {
+    border: 1px solid rgba(23, 23, 38, 0.2);
+}
