@@ -153,3 +153,13 @@ body {
     border-radius: 3px;
     background-color: #FFFBFE;
 }
+
+.content-3 .pro p {
+    border: 1px solid rgba(23, 23, 38, 0.2);
+    background-color: #E30022;
+    color: white;
+    border-top: none;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 3% 35%;
+}
