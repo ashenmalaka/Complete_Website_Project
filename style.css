@@ -173,3 +173,18 @@ body {
     position: relative;
     top: -20px;
 }
+
+.content-3 .pro h6 {
+    padding: 3%;
+    font-size: 13px;
+}
+
+.content-3 .pro a {
+    display: inline-block;
+    padding: 8px 40px;
+    margin: 10% 10%;
+    background-color: #E30022;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
