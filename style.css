@@ -223,3 +223,12 @@ body {
     padding: 0.4em 1.7em 0em 1.7em ;
 }
 
+.content-4 .tab-item span {
+    display: inline-block;
+    padding-bottom: 1em;
+    width: 100%;
+}
+
+.content-4 .tab-item active {
+    color: #EF233C;
+}
