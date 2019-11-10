@@ -189,3 +189,9 @@ body {
     text-decoration: none;
 }
 
+.content-3 .basic a, .content-3 .enterprise a {
+    background: white;
+    color: black;
+    border: 1px solid #E30022;
+    transition: all 700ms ease;
+}
