@@ -195,3 +195,10 @@ body {
     border: 1px solid #E30022;
     transition: all 700ms ease;
 }
+
+/*Content Four*/
+
+.content-4 .nav {
+    justify-content: center;
+    margin: 5%;
+}
