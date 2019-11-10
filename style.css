@@ -229,6 +229,6 @@ body {
     width: 100%;
 }
 
-.content-4 .tab-item active {
+.content-4 .tab-item.active {
     color: #EF233C;
 }
