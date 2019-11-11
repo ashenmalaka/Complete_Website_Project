@@ -271,3 +271,8 @@ body {
     padding: 8%;
     font-size: 15px;
 }
+
+.content-5 .social-icon {
+    background-color: #EDF2F4;
+    padding: 4%;
+}
