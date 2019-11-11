@@ -237,3 +237,18 @@ body {
     margin-bottom: 5%;
     transition: all 400ms ease;
 }
+
+/*Content Five*/
+
+.content-5 .row {
+    margin-top: 8%;
+}
+
+.content-5 .member-1 .avatar {
+    margin: 20px 0px;
+}
+
+.content-5 .curcle {
+    border-radius: 100px;
+    width: 35%;
+}
