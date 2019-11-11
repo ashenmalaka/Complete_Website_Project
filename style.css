@@ -266,3 +266,8 @@ body {
     top: 3px;
     z-index: 0;
 }
+
+.content-5 .member-1 .desc .info {
+    padding: 8%;
+    font-size: 15px;
+}
