@@ -232,3 +232,8 @@ body {
 .content-4 .tab-item.active {
     color: #EF233C;
 }
+
+.tab-content {
+    margin-bottom: 5%;
+    transition: all 400ms ease;
+}
