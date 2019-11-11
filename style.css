@@ -253,4 +253,16 @@ body {
     width: 35%;
     padding-top: 35px;
     position: relative;
+    z-index: 4;
+}
+
+.content-5 .avatar span::after {
+    content: "";
+    width: 90%;
+    height: 100px;
+    background-color: #EDF2F4;
+    position: absolute;
+    display: block;
+    top: 3px;
+    z-index: 0;
 }
