@@ -276,3 +276,11 @@ body {
     background-color: #EDF2F4;
     padding: 4%;
 }
+
+.content-5 .social-icon span {
+    border: 1px solid rgba(123, 123, 123, 0.2);
+    padding: 4px 8px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
