@@ -284,3 +284,13 @@ body {
     cursor: pointer;
     transition: all 500ms ease;
 }
+
+/*Content Six*/
+
+.content-6 {
+    margin-bottom: 5%;
+}
+
+.content-6 .contact span {
+    color: #EF233C;
+}
