@@ -294,3 +294,7 @@ body {
 .content-6 .contact span {
     color: #EF233C;
 }
+
+.content-6 .btn-submit {
+    background-color: #EF233C;
+}
