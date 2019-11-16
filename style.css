@@ -298,3 +298,12 @@ body {
 .content-6 .btn-submit {
     background-color: #EF233C;
 }
+
+/*Footer*/
+
+footer {
+    background-color: black;
+    padding-top: 4%;
+    margin: 0px;
+    position: relative;
+}
