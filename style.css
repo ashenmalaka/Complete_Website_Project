@@ -310,5 +310,9 @@ footer {
 
 footer span {
     padding: 0.3em 0.7em;
-    
+    color: white;
+    background-color: #242423;
+    border-radius: 50%;
+    margin: 13px 5px;
+    transition: all 500ms ease;
 }
