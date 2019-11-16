@@ -307,3 +307,8 @@ footer {
     margin: 0px;
     position: relative;
 }
+
+footer span {
+    padding: 0.3em 0.7em;
+    
+}
