@@ -316,3 +316,10 @@ footer span {
     margin: 13px 5px;
     transition: all 500ms ease;
 }
+
+footer p {
+    margin: 0px;
+    font-size: 15px;
+    padding-bottom: 8px;
+    color: #3F494C;
+}
