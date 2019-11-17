@@ -12,3 +12,9 @@
 .border-animation:hover::after{
     width: 100%;
 }
+
+/*Homepage button animation*/
+
+.btn-sub1:hover{
+    background-color: transparent;
+}
