@@ -8,11 +8,17 @@ $(document).ready(function(){
 
     $('.btn-sub1').hover(
         function(){
-            $('.fa-angle-right').css("transform","rotate(180deg)");
+            $('.fa-angle-right').css({
+                "transform" : "rotate(180deg)",
+                "margin-left" : "5px"
+            });
         },
 
         function(){
-            $('.fa-angle-right').css("transform","rotate(0deg)");
+            $('.fa-angle-right').css({
+                "transform" : "rotate(0deg)",
+                "margin-left": "0px"
+            });
         }
     );
 
