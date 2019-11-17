@@ -9,6 +9,6 @@
     transition: all 400ms ease;
 }
 
-.border-animation::hover::after{
+.border-animation:hover::after{
     width: 100%;
 }
