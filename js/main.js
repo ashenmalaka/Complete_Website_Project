@@ -10,6 +10,10 @@ $(document).ready(function(){
         function(){
             $('.fa-angle-right').css("transform","rotate(180deg)");
         },
+
+        function(){
+            $('.fa-angle-right').css("transform","rotate(0deg)");
+        }
     );
 
 
