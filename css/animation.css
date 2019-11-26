@@ -30,3 +30,9 @@
     border: 1px solid #EDF2F4;
     background-color: #352C31;
 }
+
+.fa-angle-double-right {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: all 500ms ease;
+}

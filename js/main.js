@@ -22,5 +22,15 @@ $(document).ready(function(){
         }
     );
 
+    $('.btn-sub2').hover(
+        function(){
+            $('.fa-angle-double-right').css({
+                "transform": "rotate(180deg)",
+                "margin-left": "5px"
+            });
+        }
+        
+        );
+
 
 });
