@@ -28,6 +28,12 @@ $(document).ready(function(){
                 "transform": "rotate(180deg)",
                 "margin-left": "5px"
             });
+        },
+        function () {
+            $('.fa-angle-double-right').css({
+                "transform": "rotate(0deg)",
+                "margin-left": "0px"
+            });
         }
         
         );
