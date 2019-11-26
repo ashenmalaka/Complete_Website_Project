@@ -52,7 +52,7 @@ $(document).ready(function(){
             $(this).css({
                 "width": "100px",
                 "height": "100px",
-                "color": "#3F494C"
+                "color": "#EF233C"
             });
         }
     )
