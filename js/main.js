@@ -40,7 +40,7 @@ $(document).ready(function(){
 
     //Content-1 Animation
 
-    $('.content-1.col-md-4.curcle').hover(
+    $('.content-1 .col-md-4 .curcle').hover(
         function(){
             $(this).css({
                 "width" : "105px",
