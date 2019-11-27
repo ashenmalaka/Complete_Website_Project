@@ -60,6 +60,7 @@ $(document).ready(function(){
     //Progress Bar Animation
 
     const x = 850;
+    const y = 670;
 
     $(window).on("scroll", function(){
         var scrollHeight = $(document).height();
@@ -69,6 +70,8 @@ $(document).ready(function(){
             $('.pro-1').css('width', '90%');
             $('.pro-2').css('width', '85%');
             $('.pro-3').css('width', '95%');
+        }else if(y > scrollTop){
+            $('.pro-1 .pro-2 .pro-3').css('width', '0%');
         }
 
     });
