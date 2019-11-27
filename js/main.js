@@ -71,9 +71,6 @@ $(document).ready(function(){
             $('.pro-3').css('width', '95%');
         }
 
-        $('.progress .sp-1').text(scrollHeight);
-        $('.progress .sp-2').text(scrollTop);
-
     });
 
 
