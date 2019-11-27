@@ -66,7 +66,7 @@ $(document).ready(function(){
         $('.progress .sp-1').text(scrollHeight);
         $('.progress .sp-2').text(scrollTop);
 
-    })
+    });
 
 
 });
