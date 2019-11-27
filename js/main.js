@@ -57,5 +57,16 @@ $(document).ready(function(){
         }
     );
 
+    //Progress Bar Animation
+
+    $(window).on("scroll", function(){
+        var scrollHeight = $(document).height();
+        var scrollTop = $(document).scrollTop();
+
+        $('.progress .sp-1').text(scrollHeight);
+        $('.progress .sp-2').text(scrollTop);
+
+    })
+
 
 });
