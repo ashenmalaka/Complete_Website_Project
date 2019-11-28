@@ -82,4 +82,8 @@
         width: 30px;
         height: 1px;
     }
+
+    .enterprise .basic-border:nth-child(2){
+        width: 0.8px;
+    }
 }
