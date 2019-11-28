@@ -66,4 +66,12 @@
         width: 1px;
         height: 30px;
     }
+
+    .content-3 .basic .basic-border:nth-child(3),
+    .enterprise .basic-border:nth-child(3) {
+        bottom: 0%;
+        right: 0%;
+        width: 0.8px;
+        height: 30px;
+    }
 }
