@@ -76,5 +76,12 @@ $(document).ready(function(){
 
     });
 
+    //Pricing Animation
+
+    $('.basic a').hover(function(){
+        $('.basic .basic-border:nth-child(1)').css("width", "100%");
+        $('.basic .basic-border:nth-child(2)').css("height", "100%");
+    });
+
 
 });
