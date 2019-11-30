@@ -120,6 +120,8 @@ $(document).ready(function(){
             $(enterprise_span + '(3)').css("height", "30px");
             $(enterprise_span + '(4)').css("width", "30px");
 
+            $('.enterprise hr').css("background-color", "inherit");
+
         }
     );
 
