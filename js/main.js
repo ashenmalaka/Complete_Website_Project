@@ -86,6 +86,8 @@ $(document).ready(function(){
         $(basic_span + '(2)').css("height", "100%");
         $(basic_span + '(3)').css("height", "100%");
         $(basic_span + '(4)').css("width", "100%");
+
+        $('.basic hr').css("background-color", "red");
     },
 
         function(){
