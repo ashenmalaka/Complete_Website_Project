@@ -102,5 +102,16 @@ $(document).ready(function(){
 
 );
 
+    var enterprise_span = ".enterprise .basic-border:nth-child";
+
+    $('.enterprise a').hover(
+        function(){
+            $(enterprise_span + '(1)').css("width", "100%");
+            $(enterprise_span + '(2)').css("height", "100%");
+            $(enterprise_span + '(3)').css("height", "100%");
+            $(enterprise_span + '(4)').css("width", "100%");
+        }
+    )
+
 
 });
