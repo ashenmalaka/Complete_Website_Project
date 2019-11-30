@@ -78,9 +78,13 @@ $(document).ready(function(){
 
     //Pricing Animation
 
+    var basic_span = ".basic .basic-border:nth-child";
+
     $('.basic a').hover(function(){
-        $('.basic .basic-border:nth-child(1)').css("width", "100%");
-        $('.basic .basic-border:nth-child(2)').css("height", "100%");
+        $(basic_span + '(1)').css("width", "100%");
+        $(basic_span + '(2)').css("height", "100%");
+        $(basic_span + '(3)').css("height", "100%");
+        $(basic_span + '(4)').css("width", "100%");
     });
 
 
