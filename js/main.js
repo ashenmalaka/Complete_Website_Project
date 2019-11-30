@@ -111,7 +111,7 @@ $(document).ready(function(){
             $(enterprise_span + '(3)').css("height", "100%");
             $(enterprise_span + '(4)').css("width", "100%");
         }
-    )
+    );
 
 
 });
