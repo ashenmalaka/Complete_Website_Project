@@ -95,6 +95,8 @@ $(document).ready(function(){
             $(basic_span + '(2)').css("height", "30px");
             $(basic_span + '(3)').css("height", "30px");
             $(basic_span + '(4)').css("width", "30px");
+
+            $('.basic hr').css("background-color", "inherit");
         }
 
 
