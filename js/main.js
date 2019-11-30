@@ -110,6 +110,8 @@ $(document).ready(function(){
             $(enterprise_span + '(2)').css("height", "100%");
             $(enterprise_span + '(3)').css("height", "100%");
             $(enterprise_span + '(4)').css("width", "100%");
+
+            $('.enterprise hr').css("background-color", "red");
         },
 
         function() {
