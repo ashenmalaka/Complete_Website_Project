@@ -110,7 +110,7 @@ $(document).ready(function(){
             $(enterprise_span + '(2)').css("height", "100%");
             $(enterprise_span + '(3)').css("height", "100%");
             $(enterprise_span + '(4)').css("width", "100%");
-        }
+        },
 
         function() {
             $(basic_span + '(1)').css("width", "30px");
