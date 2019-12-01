@@ -135,6 +135,11 @@ $(document).ready(function(){
                 "height" : "100%",
                 "bottom" : "0%"
             });
+
+            $(pro_span + '(2)').css({
+                "height": "100%",
+                "bottom": "0%"
+            });
         },
         function(){
             $(pro_span + '(1)').css({
