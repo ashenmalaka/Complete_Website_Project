@@ -135,6 +135,12 @@ $(document).ready(function(){
                 "height" : "100%",
                 "bottom" : "0%"
             })
+        },
+        function(){
+            $(pro_span + '(1)').css({
+                "height": "130px",
+                "bottom": "40%"
+            })
         }
     )
 
