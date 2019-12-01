@@ -215,6 +215,22 @@ $(document).ready(function(){
         });
     });
 
+    //Fourth Tab
+
+    $('.content-4 .nav-tabs:nth-child(4)').on('focusin', function () {
+        $(this).css({
+            "background-color": "#ffffff",
+            "border-top": "3px solid #E30022"
+        });
+    });
+
+    $('.content-4 .nav-tabs:nth-child(4)').on('focusout', function () {
+        $(this).css({
+            "background-color": "#EDF2F4",
+            "border-top": "0px"
+        });
+    });
+
 
 
 });
