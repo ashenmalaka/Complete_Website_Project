@@ -111,3 +111,10 @@
     color: white;
 }
 
+/*Footer*/
+
+footer span:hover {
+    color: #3F494C;
+    background-color: white;
+}
+
