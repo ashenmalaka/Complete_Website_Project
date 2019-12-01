@@ -136,8 +136,6 @@ $(document).ready(function(){
                 "bottom" : "0%"
             });
 
-            $('.pro hr').css("background-color", "red");
-
             $(pro_span + '(2)').css({
                 "height": "100%",
                 "bottom": "0%"
@@ -148,8 +146,6 @@ $(document).ready(function(){
                 "height": "130px",
                 "bottom": "40%"
             });
-
-            $('.pro hr').css("background-color", "inherit");
 
             $(pro_span + '(2)').css({
                 "height": "130px",
