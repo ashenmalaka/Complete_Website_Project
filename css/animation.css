@@ -104,3 +104,10 @@
     }
 }
 
+/*Our Team Section*/
+
+.content-5 .social-icon span:hover {
+    background-color: #E30022;
+    color: white;
+}
+
