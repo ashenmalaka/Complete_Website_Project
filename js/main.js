@@ -125,5 +125,18 @@ $(document).ready(function(){
         }
     );
 
+    //Pro Animation
+
+    var pro_span = ".pro .pro-span:nth-child";
+
+    $('.pro #pro-button').hover(
+        function(){
+            $(pro_span + '(1)').css({
+                "height" : "100%",
+                "bottom" : "0%"
+            })
+        }
+    )
+
 
 });
