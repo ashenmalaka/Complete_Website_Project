@@ -154,5 +154,12 @@ $(document).ready(function(){
         }
     );
 
+    //Our Services
+
+    $('.content-4 .nav-tabs:nth-child(1)')..css({
+        "background-color" : "#ffffff",
+        "border-top" : "3px solid #E30022"
+    })
+
 
 });
