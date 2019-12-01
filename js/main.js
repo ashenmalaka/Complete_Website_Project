@@ -146,6 +146,11 @@ $(document).ready(function(){
                 "height": "130px",
                 "bottom": "40%"
             });
+
+            $(pro_span + '(2)').css({
+                "height": "130px",
+                "bottom": "40%"
+            });
         }
     );
 
