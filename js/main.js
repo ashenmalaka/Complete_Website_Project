@@ -156,6 +156,8 @@ $(document).ready(function(){
 
     //Our Services
 
+    //First Tab
+
     $('.content-4 .nav-tabs:nth-child(1)').css({
         "background-color" : "#ffffff",
         "border-top" : "3px solid #E30022"
@@ -166,7 +168,6 @@ $(document).ready(function(){
             "background-color": "#ffffff",
             "border-top": "3px solid #E30022"
         });
-        
     });
 
     $('.content-4 .nav-tabs:nth-child(1)').on('focusout', function () {
@@ -174,8 +175,23 @@ $(document).ready(function(){
             "background-color": "#EDF2F4",
             "border-top": "0px"
         });
-
     });
+
+    //Second Tab
+
+    $('.content-4 .nav-tabs:nth-child(2)').on('focusin', function () {
+
+        $('.content-4 .nav-tabs:nth-child(1)').css({
+            "background-color": "#EDF2F4",
+            "border-top": "0px"
+        });
+
+        $(this).css({
+            "background-color": "#ffffff",
+            "border-top": "3px solid #E30022"
+        });
+    });
+
 
 
 });
