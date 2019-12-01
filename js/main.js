@@ -149,6 +149,8 @@ $(document).ready(function(){
                 "bottom": "40%"
             });
 
+            $('.enterprise hr').css("background-color", "red");
+
             $(pro_span + '(2)').css({
                 "height": "130px",
                 "bottom": "40%"
