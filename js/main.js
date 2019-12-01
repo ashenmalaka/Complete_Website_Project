@@ -136,6 +136,8 @@ $(document).ready(function(){
                 "bottom" : "0%"
             });
 
+            $('.pro hr').css("background-color", "red");
+
             $(pro_span + '(2)').css({
                 "height": "100%",
                 "bottom": "0%"
