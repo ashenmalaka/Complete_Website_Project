@@ -242,9 +242,17 @@ $(document).ready(function(){
     $('#email').on('focusout', function(){
 
         if($(this).val() != ""){
-
+            
+            if(validateEmail($(this).val())){
+                $(this).css('border', '1px solid green');
+                $('#error').text('');
+            }else{
+                $(this).css('border', '1px solid red');
+                $('#error').text('Invalid Email Address');
+            }
         }else{
-
+            $(this).css('border', '1px solid red');
+            $('#error').text('');
         }
     });
 
