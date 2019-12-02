@@ -252,7 +252,7 @@ $(document).ready(function(){
             }
         }else{
             $(this).css('border', '1px solid red');
-            $('#error').text('');
+            $('#error').text('Email is required');
         }
     });
 
