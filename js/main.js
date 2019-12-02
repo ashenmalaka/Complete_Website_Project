@@ -265,7 +265,7 @@ $(document).ready(function(){
             $(this).css('border', '1px solid red');
             $('#error').text('Message is required');
         }
-    })
+    });
 
 
 });
