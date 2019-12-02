@@ -267,5 +267,14 @@ $(document).ready(function(){
         }
     });
 
+    $('#name, #subject').on('focusout', function () {
+
+        if ($(this).val() != "") {
+            $(this).css('border', '1px solid green');
+        } else {
+            $(this).css('border', '1px solid rgb(212, 212, 212)');
+        }
+    });
+
 
 });
