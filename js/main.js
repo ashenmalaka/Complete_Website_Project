@@ -256,5 +256,16 @@ $(document).ready(function(){
         }
     });
 
+    $('#comment').on('focusout', function(){
+
+        if($(this).val() != ""){
+            $(this).css('border', '1px solid green');
+            $(#error).text('');
+        }else{
+            $(this).css('border', '1px solid red');
+            $(#error).text('Message is required');
+        }
+    })
+
 
 });
