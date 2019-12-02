@@ -260,10 +260,10 @@ $(document).ready(function(){
 
         if($(this).val() != ""){
             $(this).css('border', '1px solid green');
-            $(#error).text('');
+            $('#error').text('');
         }else{
             $(this).css('border', '1px solid red');
-            $(#error).text('Message is required');
+            $('#error').text('Message is required');
         }
     })
 
