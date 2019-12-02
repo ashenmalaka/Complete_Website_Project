@@ -232,5 +232,21 @@ $(document).ready(function(){
     });
 
 
+    //Form Validation
+
+    function validateEmail($email){
+        var emailReg = /^([\w-\.]+@([\w-]+\.).[\w-]{2,4})?$/;
+        return emailReg.test($email);
+    }
+
+    $('#email').on('focusout', function(){
+
+        if($(this).val() != ""){
+
+        }else{
+
+        }
+    })
+
 
 });
