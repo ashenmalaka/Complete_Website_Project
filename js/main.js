@@ -285,5 +285,18 @@ $(document).ready(function(){
         },1500);
     });
 
+    //Sticky NavBar
+
+    $(window).scroll(function(){
+
+        if($(document).scrollTop() > 450){
+            
+            $('nav').addClass('fixed-top').addClass('sticky');
+        }else{
+
+            $('nav').removeClass('fixed-top').removeClass('sticky');
+        }
+    })
+
 
 });
