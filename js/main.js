@@ -296,7 +296,7 @@ $(document).ready(function(){
 
             $('nav').removeClass('fixed-top').removeClass('sticky');
         }
-    })
+    });
 
 
 });
