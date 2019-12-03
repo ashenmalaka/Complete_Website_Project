@@ -122,3 +122,11 @@ footer span:hover {
      color: #F7FFF7;
 }
 
+/*Sticky Animation*/
+
+.sticky {
+    background-color: #60BAAE;
+    padding: 0% 4%;
+    transition: all 400ms ease;
+}
+
