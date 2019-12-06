@@ -325,5 +325,12 @@ $(document).ready(function(){
         $('html, body').animate({ scrollTop: 2650 }, 1000);
     });
 
+    $('.nav-item #contact-us').on('click', function () {
+
+        $('html, body').animate({ scrollTop: 3000 }, 1000);
+    });
+
+    
+
 
 });
