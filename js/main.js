@@ -320,8 +320,10 @@ $(document).ready(function(){
         $('html, body').animate({ scrollTop: 2200 }, 1000);
     });
 
+    $('.nav-item #about-us').on('click', function () {
 
-    
+        $('html, body').animate({ scrollTop: 2500 }, 1000);
+    });
 
 
 });
