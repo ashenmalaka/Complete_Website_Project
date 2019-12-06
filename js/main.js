@@ -310,5 +310,10 @@ $(document).ready(function(){
         $('html, body').animate({ scrollTop: 450 }, 1000);
     });
 
+    $('.nav-item #pricing').on('click', function () {
+
+        $('html, body').animate({ scrollTop: 1470 }, 1000);
+    });
+
 
 });
