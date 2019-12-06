@@ -303,7 +303,7 @@ $(document).ready(function(){
     $('.nav-item #home').on('click', function(){
 
         $('html, body').animate({scrollTop: 0 }, 1000);
-    })
+    });
 
 
 });
