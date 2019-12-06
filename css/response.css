@@ -1,0 +1,7 @@
+
+@media only screen and (max-width: 768px){
+    .sticky{
+        padding: 0% 5%;
+        top: 10px;
+    }
+}
