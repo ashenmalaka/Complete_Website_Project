@@ -305,5 +305,10 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop: 0 }, 1000);
     });
 
+    $('.nav-item #features').on('click', function () {
+
+        $('html, body').animate({ scrollTop: 450 }, 1000);
+    });
+
 
 });
