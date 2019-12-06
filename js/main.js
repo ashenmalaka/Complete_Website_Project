@@ -315,5 +315,13 @@ $(document).ready(function(){
         $('html, body').animate({ scrollTop: 1470 }, 1000);
     });
 
+    $('.nav-item #services').on('click', function () {
+
+        $('html, body').animate({ scrollTop: 2200 }, 1000);
+    });
+
+
+    
+
 
 });
