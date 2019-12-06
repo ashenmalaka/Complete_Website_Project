@@ -327,7 +327,7 @@ $(document).ready(function(){
 
     $('.nav-item #contact-us').on('click', function () {
 
-        $('html, body').animate({ scrollTop: 3000 }, 1000);
+        $('html, body').animate({ scrollTop: 3300 }, 1000);
     });
 
     
