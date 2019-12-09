@@ -21,3 +21,12 @@
         margin-left: 35%;
     }
 }
+
+@media only screen and (max-width: 320px){
+    
+    .site-title h2 {
+        font-size: 1.9em;
+    }
+
+    
+}
