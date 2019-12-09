@@ -32,4 +32,10 @@
         margin-left: 2%;
         width: 100%;
     }
+
+    .btn-sub2 {
+        display: none;
+    }
+
+    
 }
