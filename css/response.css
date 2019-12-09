@@ -28,5 +28,8 @@
         font-size: 1.9em;
     }
 
-    
+    .title-text {
+        margin-left: 2%;
+        width: 100%;
+    }
 }
