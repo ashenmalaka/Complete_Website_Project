@@ -72,7 +72,7 @@ $(document).ready(function(){
             $('.pro-3').css('width', '80%');
             $('.pro-4').css('width', '75%');
         }else if(y > scrollTop){
-            $('.pro-1 .pro-2 .pro-3').css('width', '0%');
+            $('.pro-1 .pro-2 .pro-3 .pro-4').css('width', '0%');
         }
 
     });
