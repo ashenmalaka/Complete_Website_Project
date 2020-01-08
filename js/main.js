@@ -69,7 +69,8 @@ $(document).ready(function(){
         if(x < scrollTop){
             $('.pro-1').css('width', '90%');
             $('.pro-2').css('width', '85%');
-            $('.pro-3').css('width', '95%');
+            $('.pro-3').css('width', '80%');
+            $('.pro-4').css('width', '75%');
         }else if(y > scrollTop){
             $('.pro-1 .pro-2 .pro-3').css('width', '0%');
         }
